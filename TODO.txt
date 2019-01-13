@@ -1,0 +1,43 @@
+CLARIFICATION
+- Can there be more than one operation? If so, will the string be formatted with parenthesis?
+  - EX: 1/2 * 3_3/4 + 3/4 - 1/4
+- Will it need to support negative numbers as input? If so, how will they be formatted?
+
+CLI with minimist
+Tests with Jest
+Lodash
+
+Can return improper? can do polish notation? [FLAGS]
+Always return mixed if no flag
+
+Input sanitization via serialization into Fraction class
+Error handling
+  red color
+
+Fraction class
+ - Fraction::Mixed? Fraction::Improper?
+ - internally always parsed & improper
+   - must support whole numbers
+ - parse/serialize (4/3 -> [4,3])
+   - could have numerator and denominator attrs
+ - simplify (5/15 -> 1/3)
+ - to_improper (1_1/3 -> 4/3)
+ - to_mixed (4/3 -> 1_1/3) 
+ - to_reciprocal (1/2 -> 2/1) 
+ - lcm [least common denominator/multiple] (4,5 is 20)
+
+ Add
+  - lcm, add numerators, simplify, to mixed 
+ Multiply
+  - multiply numerators/multiply denominators, simplify, to mixed 
+ Divide
+  - fraction #2 to reciprocal, then call multiply
+ Subtract
+  - lcm, subtract numerators, simplify, to mixed 
+
+Command -> split by allowed operands -> serialize fractions 1 & 2
+  split by operands
+    no more than one, in sequence
+    only *, /, +, -
+    operand determines which operation function is called
+
