@@ -3,6 +3,8 @@ CLARIFICATION
   - EX: 1/2 * 3_3/4 + 3/4 - 1/4
 - Will it need to support negative numbers as input? If so, how will they be formatted?
 - Does the CLI need to be called with "?" as in the example? Would it be acceptable to call "calc 3/4 * 3/5"?
+- Does the CLI always output mixed fractions or whole numbers (never improper)?
+- The asterix character for multiplication operations is misinterpreted by the shell (gives filenames instead). Is it okay to ask the user to run 'set -f' or use 'x' instead?
 
 CLI with minimist (MAKE INSTALLATION SCRIPT)
 Tests with Jest

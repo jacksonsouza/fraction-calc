@@ -11,4 +11,15 @@ Fraction class
   mixed
   bad fractions
   all methods
+
+Operations
+  All
+  Special cases
+    dividing by zero, etc
+
+Assumptions
+  Multiple operations
+  Negatives
+  Output improper
+
   

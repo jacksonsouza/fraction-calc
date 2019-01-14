@@ -4,7 +4,8 @@
     + `npm install`
     + `chmod +x bin/calc`
     + `sudo npm link`
-+ **Run** `? {fraction} {operator} {fraction}`
+    + `set -f`
++ **Run** `calc {fraction} {operator} {fraction}`
 + **Tests** `jest tests/index.js --watch`
 
 ## Problem Statement
