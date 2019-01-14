@@ -2,6 +2,7 @@ const minimist = require('minimist')
 
 module.exports = () => {
   const args = minimist(process.argv.slice(2))
+
   const operator = args._[1]
 
   switch (operator) {

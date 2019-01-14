@@ -6,17 +6,14 @@ CLARIFICATION
 
 CLI with minimist (MAKE INSTALLATION SCRIPT)
 Tests with Jest
-Lodash
 
 Can return improper? can do polish notation? [FLAGS]
 Always return mixed if no flag
 
-Input validation via serialization into Fraction class
 Error handling
   red color
 
 Fraction class
- - Fraction::Mixed? Fraction::Improper?
  - internally always parsed & improper
    - must support whole numbers
  - parse/serialize (4/3 -> [4,3])

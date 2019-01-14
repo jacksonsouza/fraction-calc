@@ -1,0 +1,14 @@
+Args in general
+  random strings
+  bad operators
+  many spaces
+  4+ args
+  correct strings
+
+Fraction class
+  whole integers
+  improper
+  mixed
+  bad fractions
+  all methods
+  
