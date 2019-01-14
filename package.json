@@ -1,0 +1,29 @@
+{
+  "name": "fraction-calc",
+  "version": "1.0.0",
+  "description": "Adds, divides, multiplies and subtracts functions via CLI",
+  "main": "exe/calc.js",
+  "bin": {
+    "calc": "bin/calc"
+  },
+  "scripts": {
+    "test": "jest tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonsouza/fraction-calc.git"
+  },
+  "author": "Jackson Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonsouza/fraction-calc/issues"
+  },
+  "homepage": "https://github.com/jacksonsouza/fraction-calc#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0"
+  }
+}

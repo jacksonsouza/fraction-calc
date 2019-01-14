@@ -2,15 +2,16 @@ CLARIFICATION
 - Can there be more than one operation? If so, will the string be formatted with parenthesis?
   - EX: 1/2 * 3_3/4 + 3/4 - 1/4
 - Will it need to support negative numbers as input? If so, how will they be formatted?
+- Does the CLI need to be called with "?" as in the example? Would it be acceptable to call "calc 3/4 * 3/5"?
 
-CLI with minimist
+CLI with minimist (MAKE INSTALLATION SCRIPT)
 Tests with Jest
 Lodash
 
 Can return improper? can do polish notation? [FLAGS]
 Always return mixed if no flag
 
-Input sanitization via serialization into Fraction class
+Input validation via serialization into Fraction class
 Error handling
   red color
 

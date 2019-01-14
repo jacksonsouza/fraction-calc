@@ -1,7 +1,10 @@
 # fraction-calc
 
-+ **Install** `npm install`
-+ **Run** `? {fraction} {operand} {fraction}`
++ **Install** 
+    + `npm install`
+    + `chmod +x bin/calc`
+    + `sudo npm link`
++ **Run** `? {fraction} {operator} {fraction}`
 + **Tests** `jest tests/index.js --watch`
 
 ## Problem Statement
