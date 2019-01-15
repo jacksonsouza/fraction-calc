@@ -2,7 +2,10 @@ module.exports = () => {
   const args = process.argv.slice(2)
   var operator = args[1]
 
-  if (args.length > 3){ operator = false }
+  if (args.length > 3){
+    console.error("Too many operators!")
+    operator = false
+  }
 
   switch (operator) {
     case '+':
