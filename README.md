@@ -3,6 +3,7 @@
 + **Install** 
     + `chmod +x init.sh`
     + `./init.sh`
+       + The script may ask for your password - `npm link` must be run as root.
     + `set -f`
        + Please advise that `set -f` must be run (included in the installation script) in order to allow `*` multiplication operator to function properly - otherwise you must use `x` for multiplication.
 + **Run** `calc {fraction} {operator} {fraction}`
