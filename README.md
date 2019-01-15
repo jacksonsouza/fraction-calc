@@ -19,9 +19,9 @@ Write a command line program in the language of your choice that will take opera
 
 ## Examples
 
-    ? 1/2 * 3_3/4
+    calc 1/2 * 3_3/4
     = 1_7/8
 
-    ? 2_3/8 + 9/8
+    calc 2_3/8 + 9/8
     = 3_1/2
 
