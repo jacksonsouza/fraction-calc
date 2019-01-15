@@ -1,3 +1,7 @@
+I left this file in order to show some amount of thinking process - I would normally remove this file.
+
+________________
+
 CLARIFICATION
 - Can there be more than one operation? If so, will the string be formatted with parenthesis?
   - EX: 1/2 * 3_3/4 + 3/4 - 1/4

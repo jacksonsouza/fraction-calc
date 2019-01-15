@@ -56,13 +56,4 @@ describe('Bad input strings', () => {
       expect(stderr.includes(errStr)).toEqual(true)
     })
   });
-
-  test('Too many arguments', () => {
-    var cmd = 'calc 2 + 2 + 4 + 3',
-        errStr = "\"undefined\" is not a valid operator.";
-
-    exec(cmd, function(err, stdout, stderr){
-      expect(stderr.includes(errStr)).toEqual(true)
-    })
-  });
 });

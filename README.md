@@ -4,6 +4,7 @@
     + `chmod +x init.sh`
     + `./init.sh`
        + Please advise that `set -f` must be run (included in the installation script) in order to allow `*` multiplication operator to function properly - otherwise you must use `x` for multiplication.
+       + `set -f` may need to be run as root - password may be requested during the init script.
 + **Run** `calc {fraction} {operator} {fraction}`
 + **Tests** 
     + `npm test` for entire suite

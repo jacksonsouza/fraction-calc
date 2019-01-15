@@ -2,6 +2,8 @@ module.exports = () => {
   const args = process.argv.slice(2)
   const operator = args[1]
 
+  if (args.length > 3){ operator = false }
+
   switch (operator) {
     case '+':
     case '-':
