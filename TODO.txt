@@ -15,8 +15,11 @@ Always return mixed if no flag
 Error handling
   red color
 
-FIX MIXED WHERE RESULT IS A WHOLE NUMBER
-MIXED SHOULD RETURN FRACTION ONLY IF WHOLE IS 0
+Negative in numerator, when whole number is present is not valid input. i.e. "1_-1/4" is invalid
+-1_-1/4 invalid
+no two negative signs, negative only on whole if there is one,
+negative only on numerator if no whole
+
 
 Fraction class
  - internally always parsed & improper

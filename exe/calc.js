@@ -1,8 +1,6 @@
-const minimist = require('minimist')
-
 module.exports = () => {
-  const args = minimist(process.argv.slice(2))
-  const operator = args._[1]
+  const args = process.argv.slice(2)
+  const operator = args[1]
 
   switch (operator) {
     case '+':
@@ -13,7 +11,7 @@ module.exports = () => {
       console.log(require('../lib/operation')(args))
       break
     default:
-      console.error(`"${operator}" is not a valid operator. Please run set -f before attempting multiplication operations to prevent the shell from misreading the asterix.`)
+      console.error(`"${operator}" is not a valid operator.`)
       break
   }
 }

@@ -1,12 +1,13 @@
 # fraction-calc
 
 + **Install** 
-    + `npm install`
-    + `chmod +x bin/calc`
-    + `sudo npm link`
-    + `set -f`
+    + `chmod +x init.sh`
+    + `./init.sh`
+       + Please advise that `set -f` must be run (included in the installation script) in order to allow `*` multiplication operator to function properly - otherwise you must use `x` for multiplication.
 + **Run** `calc {fraction} {operator} {fraction}`
-+ **Tests** `jest tests/index.js --watch`
++ **Tests** 
+    + `npm test` for entire suite
+    + `jest tests/{filename}` for individual tests 
 
 ## Problem Statement
 Write a command line program in the language of your choice that will take operations on fractions as an input and produce a fractional result.
